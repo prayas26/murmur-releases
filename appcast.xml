@@ -6,14 +6,22 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmur 1.6</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.6</link>
-      <sparkle:version>7</sparkle:version>
-      <sparkle:shortVersionString>1.6</sparkle:shortVersionString>
+      <title>Murmur 1.7</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.7</link>
+      <description><![CDATA[
+<h3>A real toolbar</h3>
+<p>The main window has a proper macOS toolbar: a search field that collapses when the window is narrow, the transcribe action, and an overflow menu. What Murmur is doing — listening, transcribing, cleaning up — is now the window's subtitle, where macOS puts that kind of thing, so the content is nothing but your transcripts.</p>
+<h3>Release notes, here</h3>
+<p>You're reading them in the app. Every release now carries a summary that shows up in this dialog rather than only on a web page you'd have to go and find.</p>
+<h3>Under the hood</h3>
+<p>Murmur's core logic — how a long dictation is stitched back together, the guard that stops a model answering a question you dictated, phrase replacement, version comparison — is now covered by an automated test suite. Nothing you can see, and exactly the sort of thing that keeps what you can see from breaking.</p>
+      ]]></description>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 11 Aug 2026 10:22:00 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.6/Murmur-1.6.dmg"
-                 length="8974625"
+      <pubDate>Tue, 11 Aug 2026 11:22:56 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.7/Murmur-1.7.dmg"
+                 length="8935401"
                  type="application/octet-stream" />
     </item>
   </channel>
