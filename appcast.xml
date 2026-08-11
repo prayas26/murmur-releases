@@ -6,22 +6,25 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmur 1.9</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.9</link>
+      <title>Murmur 1.10</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.10</link>
       <description><![CDATA[
-<h3>Settings you can find things in</h3>
-<p>Settings is now three tabs instead of two. <b>Words</b> holds your vocabulary corrections and snippets, which were the bulkiest thing in the old General pane.</p>
-<p>The <b>AI</b> tab is shorter too: automatic cleanup and manual polish were two nearly identical blocks and are now two rows under one <b>Models</b> heading, with the privacy warning shown only for automatic cleanup — the one engine that runs without being asked. Provider keys stay on the same tab as the models that need them.</p>
-<h3>About Murmur</h3>
-<p>There's a proper About panel in the app menu now, with the version and a way to find me. The same sits at the foot of Settings.</p>
-<p>Created with ❤️ by Prayas.</p>
+<h3>A new icon</h3>
+<p>Murmur's icon is redrawn from scratch. It was a waveform, which every audio app on your Mac already uses — it said "this handles sound" and nothing more. It's now a text caret with sound arriving at it, because what Murmur actually does is put your words where your cursor is. It also stays legible at the small sizes you meet it in, in the Dock and in Finder lists.</p>
+<h3>Check for Updates, and About</h3>
+<p>Both are in the menu-bar menu now — click the waveform in your status bar. **About Murmur** shows the version and how to find me, from the app menu too.</p>
+<h3>Fixes</h3>
+<ul>
+<li><b>Settings wouldn't open from the menu bar.</b> The window's toolbar had already been</li>
+<p>  fixed; the menu bar kept a second, broken copy. There's one implementation now, so   it can't drift again.</p>
+</ul>
       ]]></description>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 11 Aug 2026 11:58:37 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.9/Murmur-1.9.dmg"
-                 length="8944384"
+      <pubDate>Tue, 11 Aug 2026 12:51:05 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.10/Murmur-1.10.dmg"
+                 length="8847658"
                  type="application/octet-stream" />
     </item>
   </channel>
