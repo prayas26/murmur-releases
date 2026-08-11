@@ -6,19 +6,22 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmur 1.8</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.8</link>
+      <title>Murmur 1.9</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.9</link>
       <description><![CDATA[
+<h3>Settings you can find things in</h3>
+<p>Settings is now three tabs instead of two. <b>Words</b> holds your vocabulary corrections and snippets, which were the bulkiest thing in the old General pane.</p>
+<p>The <b>AI</b> tab is shorter too: automatic cleanup and manual polish were two nearly identical blocks and are now two rows under one <b>Models</b> heading, with the privacy warning shown only for automatic cleanup — the one engine that runs without being asked. Provider keys stay on the same tab as the models that need them.</p>
 <h3>About Murmur</h3>
-<p>Murmur now has a proper About panel, reachable from the app menu, showing the version and who made it. The same credit sits at the foot of Settings → General, where the version number is now visible too — previously it only appeared if an update check happened to run.</p>
+<p>There's a proper About panel in the app menu now, with the version and a way to find me. The same sits at the foot of Settings.</p>
 <p>Created with ❤️ by Prayas.</p>
       ]]></description>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>1.8</sparkle:shortVersionString>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 11 Aug 2026 11:31:25 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.8/Murmur-1.8.dmg"
-                 length="8939542"
+      <pubDate>Tue, 11 Aug 2026 11:58:37 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.9/Murmur-1.9.dmg"
+                 length="8944384"
                  type="application/octet-stream" />
     </item>
   </channel>
