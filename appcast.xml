@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Murmur</title>
+    <link>https://raw.githubusercontent.com/prayas26/murmur-releases/main/appcast.xml</link>
+    <description>Push-to-talk dictation for macOS.</description>
+    <language>en</language>
+    <item>
+      <title>Murmur 1.4</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.4</link>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>1.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 11 Aug 2026 08:55:45 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.4/Murmur-1.4.dmg"
+                 length="8942302"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
