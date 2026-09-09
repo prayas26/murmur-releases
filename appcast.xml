@@ -6,27 +6,26 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 1.11.0</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.11.0</link>
+      <title>Murmurly 1.12.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.12.0</link>
       <description><![CDATA[
-<h3>Murmur is now Murmurly</h3>
-<p>Same app, new name. This release is a fresh install rather than an update: <b>if you have Murmur 1.10, download Murmurly from murmurly.prayasmittal.com and drag it to Applications.</b> The updater inside 1.10 can't install it, and macOS will ask for the microphone, speech and Accessibility permissions again. Your history and statistics carry over.</p>
-<h3>An account</h3>
-<p>Murmurly asks you to sign in with Google the first time it opens. The account is how Murmurly knows it's you, and what it sends home afterwards is counts — how many dictations, how many words, which features — never a word of what you said. Audio and transcription still never leave your Mac. Sign in once; after that it works offline.</p>
-<h3>One window</h3>
-<p>History, Insights, Dictionary, Snippets, AI and Settings are pages of a single window with a sidebar. The Dictation page shows the words as they arrive while you hold the key, then the transcripts by day.</p>
-<h3>Fixes</h3>
+<h3>Cleanup that follows the app</h3>
+<p>New in Settings → AI: <b>Per-app styles</b>, off until you switch it on. When it's on, cleanup adapts to the app you were in when you pressed the key.</p>
 <ul>
-<li>The first-run guide no longer reappears when every permission is already granted.</li>
-<li>Signing out closes every window and discards any dictation in progress.</li>
+<li><b>Raw</b> for terminals and code editors: no cleanup at all, the words exactly as recognised. No stray capital, no full stop.</li>
+<li><b>Casual</b> for Slack, Messages and other chat: contractions kept, punctuation kept light, fillers still removed.</li>
+<li><b>Formal</b> for Mail and Outlook: complete sentences, contractions written out.</li>
 </ul>
+<p>Turning it on seeds sensible rules for the apps you have installed. Change any of them, remove any, or add another app.</p>
+<h3>Coming from Murmur 1.10</h3>
+<p>If you still have Murmur 1.10, this is a fresh install rather than an update: download Murmurly from murmurly.prayasmittal.com and drag it to Applications. Murmurly 1.11 updates normally.</p>
       ]]></description>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 09 Sep 2026 05:42:01 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.11.0/Murmurly.dmg"
-                 length="9146938"
+      <pubDate>Wed, 09 Sep 2026 06:23:49 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.12.0/Murmurly.dmg"
+                 length="9195179"
                  type="application/octet-stream" />
     </item>
   </channel>
