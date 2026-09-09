@@ -6,20 +6,28 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 1.12.1</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.12.1</link>
+      <title>Murmurly 2.0.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.0.0</link>
       <description><![CDATA[
-<h3>Try it here</h3>
-<p>The Dictation page now opens with a practice field. Click into it, hold your key, speak, let go — the words land there, cleaned up, exactly as they would in a document, and nothing can go wrong. It stays until you've dictated something for real, then folds away behind a link.</p>
+<h3>Murmurly 2.0</h3>
+<p>The name, the account, the window and the cleanup all changed this month; this release rounds it off, so it gets the number.</p>
+<h3>What's new since Murmur</h3>
+<ul>
+<li><b>Murmurly</b>, with an account. Sign in with Google once; after that it works offline. What it sends home afterwards is counts — dictations, words, features — never a word of what you said.</li>
+<li><b>One window.</b> Dictation, Insights, Dictionary, Snippets, AI and Settings as pages of a single window. The Dictation page shows the words as they arrive while you hold the key, then your transcripts by day.</li>
+<li><b>Per-app styles</b>, off until you switch them on: no cleanup at all in terminals and code editors, casual in chat, formal in email.</li>
+<li><b>A practice field</b> on the Dictation page, so the first dictation you try can't go wrong.</li>
+<li><b>A sign-in window that shows the app working</b>, with Murmurly's own capsule dictating into a note.</li>
+</ul>
 <h3>Coming from Murmur 1.10</h3>
-<p>If you still have Murmur 1.10, download Murmurly from murmurly.prayasmittal.com and drag it to Applications; the updater in 1.10 can't install it. Murmurly 1.11 and later update normally.</p>
+<p>Download Murmurly from murmurly.prayasmittal.com and drag it to Applications; the updater in 1.10 can't install it. macOS will ask for the microphone, speech and Accessibility permissions again. Your history and statistics carry over. Murmurly 1.11 and later update normally.</p>
       ]]></description>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>1.12.1</sparkle:shortVersionString>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>2.0.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 09 Sep 2026 06:39:16 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.12.1/Murmurly.dmg"
-                 length="9207863"
+      <pubDate>Wed, 09 Sep 2026 06:48:45 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.0.0/Murmurly.dmg"
+                 length="9240530"
                  type="application/octet-stream" />
     </item>
   </channel>
