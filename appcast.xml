@@ -6,26 +6,20 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 1.12.0</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.12.0</link>
+      <title>Murmurly 1.12.1</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.12.1</link>
       <description><![CDATA[
-<h3>Cleanup that follows the app</h3>
-<p>New in Settings → AI: <b>Per-app styles</b>, off until you switch it on. When it's on, cleanup adapts to the app you were in when you pressed the key.</p>
-<ul>
-<li><b>Raw</b> for terminals and code editors: no cleanup at all, the words exactly as recognised. No stray capital, no full stop.</li>
-<li><b>Casual</b> for Slack, Messages and other chat: contractions kept, punctuation kept light, fillers still removed.</li>
-<li><b>Formal</b> for Mail and Outlook: complete sentences, contractions written out.</li>
-</ul>
-<p>Turning it on seeds sensible rules for the apps you have installed. Change any of them, remove any, or add another app.</p>
+<h3>Try it here</h3>
+<p>The Dictation page now opens with a practice field. Click into it, hold your key, speak, let go — the words land there, cleaned up, exactly as they would in a document, and nothing can go wrong. It stays until you've dictated something for real, then folds away behind a link.</p>
 <h3>Coming from Murmur 1.10</h3>
-<p>If you still have Murmur 1.10, this is a fresh install rather than an update: download Murmurly from murmurly.prayasmittal.com and drag it to Applications. Murmurly 1.11 updates normally.</p>
+<p>If you still have Murmur 1.10, download Murmurly from murmurly.prayasmittal.com and drag it to Applications; the updater in 1.10 can't install it. Murmurly 1.11 and later update normally.</p>
       ]]></description>
-      <sparkle:version>13</sparkle:version>
-      <sparkle:shortVersionString>1.12.0</sparkle:shortVersionString>
+      <sparkle:version>14</sparkle:version>
+      <sparkle:shortVersionString>1.12.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Wed, 09 Sep 2026 06:23:49 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.12.0/Murmurly.dmg"
-                 length="9195179"
+      <pubDate>Wed, 09 Sep 2026 06:39:16 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.12.1/Murmurly.dmg"
+                 length="9207863"
                  type="application/octet-stream" />
     </item>
   </channel>
