@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Murmur</title>
+    <title>Murmurly</title>
     <link>https://raw.githubusercontent.com/prayas26/murmur-releases/main/appcast.xml</link>
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmur 1.10</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.10</link>
+      <title>Murmurly 1.11.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v1.11.0</link>
       <description><![CDATA[
-<h3>A new icon</h3>
-<p>Murmur's icon is redrawn from scratch. It was a waveform, which every audio app on your Mac already uses — it said "this handles sound" and nothing more. It's now a text caret with sound arriving at it, because what Murmur actually does is put your words where your cursor is. It also stays legible at the small sizes you meet it in, in the Dock and in Finder lists.</p>
-<h3>Check for Updates, and About</h3>
-<p>Both are in the menu-bar menu now — click the waveform in your status bar. **About Murmur** shows the version and how to find me, from the app menu too.</p>
+<h3>Murmur is now Murmurly</h3>
+<p>Same app, new name. This release is a fresh install rather than an update: <b>if you have Murmur 1.10, download Murmurly from murmurly.prayasmittal.com and drag it to Applications.</b> The updater inside 1.10 can't install it, and macOS will ask for the microphone, speech and Accessibility permissions again. Your history and statistics carry over.</p>
+<h3>An account</h3>
+<p>Murmurly asks you to sign in with Google the first time it opens. The account is how Murmurly knows it's you, and what it sends home afterwards is counts — how many dictations, how many words, which features — never a word of what you said. Audio and transcription still never leave your Mac. Sign in once; after that it works offline.</p>
+<h3>One window</h3>
+<p>History, Insights, Dictionary, Snippets, AI and Settings are pages of a single window with a sidebar. The Dictation page shows the words as they arrive while you hold the key, then the transcripts by day.</p>
 <h3>Fixes</h3>
 <ul>
-<li><b>Settings wouldn't open from the menu bar.</b> The window's toolbar had already been</li>
-<p>  fixed; the menu bar kept a second, broken copy. There's one implementation now, so   it can't drift again.</p>
+<li>The first-run guide no longer reappears when every permission is already granted.</li>
+<li>Signing out closes every window and discards any dictation in progress.</li>
 </ul>
       ]]></description>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>1.10</sparkle:shortVersionString>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.11.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Tue, 11 Aug 2026 12:51:05 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.10/Murmur-1.10.dmg"
-                 length="8847658"
+      <pubDate>Wed, 09 Sep 2026 05:42:01 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v1.11.0/Murmurly.dmg"
+                 length="9146938"
                  type="application/octet-stream" />
     </item>
   </channel>

@@ -1,31 +1,39 @@
-# Murmur — downloads
+# Murmurly — downloads
 
-Push-to-talk dictation for macOS. Hold a shortcut, speak, release — the text
-appears at your cursor in whatever app you're using.
+Push-to-talk dictation for macOS. Hold a key you choose, speak, let go — the words
+land at your cursor in whatever app you're using.
 
-**[Download the latest release →](https://github.com/prayas26/murmur-releases/releases/latest)**
+**[Download Murmurly.dmg →](https://github.com/prayas26/murmur-releases/releases/latest/download/Murmurly.dmg)**
+· [murmurly.prayasmittal.com](https://murmurly.prayasmittal.com)
 
-Open the `.dmg` and drag Murmur to Applications. The app and the disk image are
-both notarized by Apple and stapled, so it opens with a double-click — no
-right-click → Open, and no network round-trip on first launch.
+Open the disk image and drag Murmurly to Applications. The app and the image are both
+notarized by Apple and stapled, so it opens with a double-click and needs no network
+on first launch.
 
 Requires macOS 14 or later.
 
-## What it does
+## Coming from Murmur 1.10
 
-Transcription runs on-device via Apple's Speech framework. Audio never leaves
-your Mac and is deleted as soon as it's transcribed. There is no backend and no
-account.
+Murmur is now Murmurly. This is a fresh install rather than an update: the updater in
+1.10 can't install it, and macOS will ask for the microphone, speech and Accessibility
+permissions again. Your history and statistics carry over.
 
-Cleanup — dropping filler words, repairing punctuation — is on-device by default
-too, using Apple Intelligence. You can point it at a cloud model instead with
-your own API key, in which case Settings says plainly that the text is leaving
-the machine.
+## What it does, and where your words go
 
-Murmur checks this repository about once a day for a newer version number. It
-never installs anything on its own, and the check can be switched off.
+Transcription runs on-device with Apple's speech recognizer. Audio never leaves your
+Mac and is discarded as soon as it's transcribed. Cleanup — dropping filler words,
+adding punctuation — runs on-device too, with Apple Intelligence. You can point it at a
+cloud model with your own API key instead, and Settings says plainly that the text
+leaves the machine when you do.
+
+Murmurly asks you to sign in with Google once. After that it sends usage counts — how
+many dictations, how many words, which features — and never any text; the server has
+no field that could hold one. Signing in is the only thing that needs the internet.
+
+It checks this repository about once a day for a newer version. It never installs
+anything on its own, and the check can be switched off.
 
 ## This repository
 
-Downloads only — the source is not published here. Releases carry the built,
-signed and notarized disk image, and nothing else lives in this repo.
+Downloads only — the source is not published here. Releases carry the built, signed and
+notarized disk image, and nothing else lives in this repo.
