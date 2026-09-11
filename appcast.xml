@@ -6,22 +6,23 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 2.0.1</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.0.1</link>
+      <title>Murmurly 2.1.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.1.0</link>
       <description><![CDATA[
-<h3>Double-tap works every time</h3>
-<p>A quick double-tap to lock hands-free recording could be missed: the first tap's release arrived before the microphone had come up and was dropped, so the second tap was refused, the recording quietly stopped half a second later, and people repeated themselves and got the text twice. The key is now tracked through the start, so a tap, a hold and a double-tap behave the same however fast they are. As a safeguard, the same text is never inserted twice within a couple of seconds.</p>
-<h3>Quiet by default</h3>
-<p>The sounds on start, stop and errors are off. The capsule shows the same thing. Turn them back on under Settings → General if you liked them.</p>
-<h3>Coming from Murmur 1.10</h3>
-<p>Download Murmurly from murmurly.prayasmittal.com and drag it to Applications; the updater in 1.10 can't install it. Murmurly 1.11 and later update normally.</p>
+<h3>Choose your microphone</h3>
+<p>Settings → General now has a microphone picker. Murmurly followed whatever macOS was set to, which is usually right and occasionally a cliff: wearing a headset while the Mac keeps recording its own array is the largest drop in accuracy available to you, and nothing said which device was live. Pick one and it's remembered by the device itself, not its place in a list, so it comes back when you plug it in — and if it's away, Murmurly says so and uses the system default until it returns.</p>
+<p>The capsule now names the microphone when it isn't hearing anything, instead of leaving you to notice that the meter never moved. Let go without having said anything and it stays up to tell you, rather than vanishing like a broken shortcut.</p>
+<h3>The first run checks it can hear you</h3>
+<p>Allowing the microphone and being able to hear you are different things, and every way the second one fails looks the same afterwards: you hold the key, you speak, nothing happens. So the setup guide ends by opening the microphone and showing you the level moving and your words coming back — on the same device and the same recognizer dictation itself uses. If nothing arrives it names the device and offers another; if sound arrives without words, it says so, which is usually the language.</p>
+<h3>About Murmurly</h3>
+<p>A real About window, in place of the system panel. It says which version you're running and, more usefully, what this install actually does with your words — cleanup on your Mac, or the name of the cloud model it's pointed at, stated plainly rather than left to a setting you'd have to go and read.</p>
       ]]></description>
-      <sparkle:version>16</sparkle:version>
-      <sparkle:shortVersionString>2.0.1</sparkle:shortVersionString>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>2.1.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 10 Sep 2026 09:13:10 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.0.1/Murmurly.dmg"
-                 length="9243693"
+      <pubDate>Fri, 11 Sep 2026 13:57:18 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.1.0/Murmurly.dmg"
+                 length="9327331"
                  type="application/octet-stream" />
     </item>
   </channel>
