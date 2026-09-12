@@ -6,22 +6,23 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 2.2.0</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.2.0</link>
+      <title>Murmurly 2.3.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.3.0</link>
       <description><![CDATA[
-<h3>Invite a friend</h3>
-<p>Every account now has a six-character code and a link to go with it, at murmurly.prayasmittal.com/r/YOURCODE. Open it from the menu bar under *Invite a Friend…*, or from the gift icon beside your name in the sidebar.</p>
-<p>When someone signs in with your code you both earn 30 days of Pro. Pro isn't on sale yet — the time is held against your account for when it is, and the screen says so rather than pretending otherwise.</p>
-<p>The code is six characters with no 0 or O and no 1, I or L in it, because these get read aloud and typed back in. Pasting the whole link works too; Murmurly takes the code off the end.</p>
-<h3>Arrived on someone else's code?</h3>
-<p>Setup now asks once, right after the signup questions, and the same field stays in Invite a Friend until you've used one. A code can only be used once, and not your own.</p>
+<h3>⌘Q keeps Murmurly running</h3>
+<p>Pressing ⌘Q used to quit, which quietly took the dictation key away with nothing on screen to say so — the next time you held the chord, nothing happened. It now puts Murmurly away into the menu bar and keeps listening. The app menu says so: *Keep Running in the Menu Bar*.</p>
+<p>To quit for real, <b>⌥⌘Q</b>, or *Quit Murmurly* from the menu bar.</p>
+<h3>Invite a friend has its own page</h3>
+<p>It sits in the sidebar under Settings, above your account, with your code, your link and how many people have joined. It was a separate window before.</p>
+<h3>One mark</h3>
+<p>The sidebar, the setup guide and the sign-in window were drawing a waveform while the app icon is a text caret with sound arriving at it. They all use the icon's mark now, and so does the website.</p>
       ]]></description>
-      <sparkle:version>18</sparkle:version>
-      <sparkle:shortVersionString>2.2.0</sparkle:shortVersionString>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 12 Sep 2026 21:08:20 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.2.0/Murmurly.dmg"
-                 length="9394892"
+      <pubDate>Sat, 12 Sep 2026 21:41:00 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.3.0/Murmurly.dmg"
+                 length="9401247"
                  type="application/octet-stream" />
     </item>
   </channel>
