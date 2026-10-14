@@ -6,23 +6,41 @@
     <description>Push-to-talk dictation for macOS.</description>
     <language>en</language>
     <item>
-      <title>Murmurly 2.3.0</title>
-      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.3.0</link>
+      <title>Murmurly 2.4.0</title>
+      <link>https://github.com/prayas26/murmur-releases/releases/tag/v2.4.0</link>
       <description><![CDATA[
-<h3>⌘Q keeps Murmurly running</h3>
-<p>Pressing ⌘Q used to quit, which quietly took the dictation key away with nothing on screen to say so — the next time you held the chord, nothing happened. It now puts Murmurly away into the menu bar and keeps listening. The app menu says so: *Keep Running in the Menu Bar*.</p>
-<p>To quit for real, <b>⌥⌘Q</b>, or *Quit Murmurly* from the menu bar.</p>
-<h3>Invite a friend has its own page</h3>
-<p>It sits in the sidebar under Settings, above your account, with your code, your link and how many people have joined. It was a separate window before.</p>
-<h3>One mark</h3>
-<p>The sidebar, the setup guide and the sign-in window were drawing a waveform while the app icon is a text caret with sound arriving at it. They all use the icon's mark now, and so does the website.</p>
+<h3>A new look</h3>
+<p>The window is a Mac window now: a sidebar down the left with Transcripts, Words and Settings, and the page beside it. Transcripts are larger and easier to read, each one shows the icon of the app it went to, and Copy, Polish and Delete appear when you point at it. A strip at the top shows today's words, your streak and the time you've saved, and opens Insights.</p>
+<p>The bottom of the sidebar says how Murmurly is set up — your shortcut, which microphone it will use, where cleanup runs — and anything that needs you, like permission to type at your cursor or an update that's ready. Those used to be banners across the top of the page.</p>
+<h3>Murmurly in the menu bar</h3>
+<p>Click the menu-bar icon for your last dictation (one click copies it back) and quick switches for the microphone, cleanup and language. Right-click for the full menu as before.</p>
+<h3>Words</h3>
+<p>The dictionary and snippets now share one page, as two tabs with one search.</p>
+<h3>Settings, sorted</h3>
+<p>Settings is one window with five sections — Dictation, Cleanup &amp; AI, General, Privacy &amp; Data and Account — instead of two long tabs. Privacy &amp; Data says plainly what leaves your Mac, worked out from your own settings. Your cleanup instructions now have a Save button, so a half-typed instruction is never used.</p>
+<h3>The capsule</h3>
+<p>The recording capsule is always dark, so it reads the same over any app. It shows a lock when you're recording hands-free and says when your words are still being cleaned up.</p>
+<h3>First run, one step at a time</h3>
+<p>Setup asks for one thing at a time and ends with you saying a sentence, so you know Murmurly can hear you before you start.</p>
+<h3>Fixes</h3>
+<ul>
+<li>Snippets reach your cursor exactly as you wrote them.</li>
+<li>A deleted transcript, dictionary entry or snippet can be brought back with Undo.</li>
+<li>The shortcut recorder won't accept a chord that would break copy, paste or</li>
+<p>  other everyday keys.</p>
+<li>Cleanup is better at catching a reply where your words should have been.</li>
+<li>Your history and counts survive a damaged file instead of starting over.</li>
+<li>Being signed out after a while away no longer happens when a quiet refresh</li>
+<p>  would do.</p>
+<li>The update status can no longer get stuck on "Checking…".</li>
+</ul>
       ]]></description>
-      <sparkle:version>19</sparkle:version>
-      <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <pubDate>Sat, 12 Sep 2026 21:41:00 +0000</pubDate>
-      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.3.0/Murmurly.dmg"
-                 length="9401247"
+      <pubDate>Wed, 14 Oct 2026 09:32:25 +0000</pubDate>
+      <enclosure url="https://github.com/prayas26/murmur-releases/releases/download/v2.4.0/Murmurly.dmg"
+                 length="9938119"
                  type="application/octet-stream" />
     </item>
   </channel>
